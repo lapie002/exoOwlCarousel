@@ -1,0 +1,28 @@
+Pour aujourd'hui PDF avec FPDF, Mail en objet PHPMailer(voir au dessus) et pour cette après midi "pause" html/css/js en s'essayant au Carousel. Posez tout ceci fichier PHP et carousel sur le FTP de l'autres fois, à gagner pour le ou la première qui à poser et juste, une paire de lunette levr...e
+ 
+
+[9:15] 
+Faire au minimum 2 slider avec les images d'imprimante 3D : Responsive, un en démarrage automatique(autoplay) et l'autre démarre quand on clique dessus, un avec des captions(texte descriptif au dessus de chaque image) et un sans. Un des 2 doit présenter plusieurs miniatures des photos du diaporama en bas du carousel.
+Bonus: celui qui est en autoplay fait une pause lors du défilement si on clique sur l'image.
+
+Exemples :
+
+- http://www.jssor.com
+- https://dcrazed.com/free-responsive-jquery-carousel-slider-plugins/
+- http://flexslider.woothemes.com/index.html
+- https://owlcarousel2.github.io/OwlCarousel2/  ->  https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html
+
+- http://kenwheeler.github.io/slick/
+- https://tympanus.net/Development/Elastislide/index4.html
+- http://tulios.github.io/jquery.silver_track/
+- https://dcrazed.com/free-responsive-jquery-carousel-slider-plugins/
+
+Responsive, 
+- un en démarrage automatique(autoplay) et l'autre démarre quand on clique dessus,
+- un avec des captions(texte descriptif au dessus de chaque image) et un sans.
+- Un des 2 doit présenter plusieurs miniatures des photos du diaporama en bas du carousel.
+
+Avec les mots clefs carousel slider vous avez des tonnes d'autres exemples...
+Il y a en pure CSS, en jquery,
+
+

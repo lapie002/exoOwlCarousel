@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Owl Carousel 2</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+		<!-- <script src="unit/core.js" defer></script> -->
+	</head>
+	<body>
+    <!-- Unite core
+		<div id="qunit"></div>
+		<div id="qunit-fixture">
+
+			<ul id="simple" class="owl-carousel">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</ul>
+		</div> -->
+    <!-- Set up your HTML -->
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+          <figure>
+            <img src="img/img1.jpg" alt="The Arch">
+            <figcaption>Fig.1 - La Nuit dans une rue de Hội An.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img2.jpg" alt="The Arch">
+            <figcaption>Fig.2 - Escale en Baie d'Along.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img3.jpg" alt="The Arch">
+            <figcaption>Fig.3 - Beautiful Ninh Binh.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img4.jpg" alt="The Arch">
+            <figcaption>Fig.4 - Jeune fille au temple de la littérature.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img5.jpg" alt="The Arch">
+            <figcaption>Fig.5 - Lectrice à Hoi An.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img6.jpg" alt="The Arch">
+            <figcaption>Fig.6 - Sapa et ses rizières.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img7.jpg" alt="The Arch">
+            <figcaption>Fig.7 - Coucher de soleil sur Ha Long.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img8.jpg" alt="The Arch">
+            <figcaption>Fig.8 - Retour de pêche au coucher de soleil.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img9.jpg" alt="The Arch">
+            <figcaption>Fig.9 - La vie en rose.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img10.jpg" alt="The Arch">
+            <figcaption>Fig.10 - Vue panorarique sur la baie d'Halong.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img11.jpg" alt="The Arch">
+            <figcaption>Fig.11 -un bateau de peche.</figcaption>
+          </figure>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="img/img12.jpg" alt="The Arch">
+            <figcaption>Fig.12 - un village de pecheurs.</figcaption>
+          </figure>
+        </div>
+    </div>
+
+<div>
+  <button type="button" name="button" class="play">Play</button>
+  <button type="button" name="button" class="stop">Stop</button>
+</div>
+
+<script type="text/javascript">
+
+      // $(document).ready(function(){
+      // $(".owl-carousel").owlCarousel();
+      // });
+
+var owl = $('.owl-carousel');
+      owl.owlCarousel({
+          items:4,
+          loop:true,
+          margin:10,
+          autoplay:true,
+          autoplayTimeout:1500,
+          autoplayHoverPause:true
+      });
+      $('.play').on('click',function(){
+          owl.trigger('play.owl.autoplay',[1000])
+      })
+      $('.stop').on('click',function(){
+          owl.trigger('stop.owl.autoplay')
+      })
+
+// $(document).ready(function(){
+// $(".owl-carousel").owlCarousel();
+// });
+
+</script>
+	</body>
+</html>
